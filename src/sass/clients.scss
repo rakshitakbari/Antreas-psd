@@ -1,0 +1,13 @@
+#clients{
+    padding: 60px 0;
+    overflow: hidden;
+    .client {
+        width: 20%;
+        margin-top: 20px;
+        img{
+            max-width: 100%;
+            line-height: 0;
+            height: auto;
+        }
+    }
+}

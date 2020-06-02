@@ -1,0 +1,640 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <link rel="icon" href="images/favicon.ico">
+
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
+        integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+        integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
+        integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
+        crossorigin="anonymous"></script>
+    <script src="//code.jquery.com/jquery-1.11.1.min.js"></script>
+
+
+    <title>Antreas</title>
+
+    <% include /src/include/styles.ejs %>
+
+</head>
+
+<body>
+
+    <% include /src/include/header.ejs %>
+
+    <section id="hero">
+        <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+            <ol class="carousel-indicators">
+                <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+                <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+                <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+            </ol>
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img class="d-block w-100" src="images/slider-1.jpg" alt="Antreas slider">
+                    <div class="slider-text">
+                        <h2 class="slide-title" style="font-size: 60px;">
+                            Seamlessly Integrated Features</h2>
+                        <p>Support for portfolio, services, team members, and more. Support for portfolio, services, team members, and more.</p>
+                        <a class="slide-button slide-button--second button" href="#">
+                            Get this theme- now </a>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img class="d-block w-100" src="images/slider-2.jpg" alt="Antreas slider">
+                    <div class="slider-text">
+                        <h2 class="slide-title" style="font-size: 60px;">
+                            Create A Fully Immersive Experience For Your Dream Audience </h2>
+                        <p>Morbi tempus porta nunc <strong>pharetra quisque</strong> ligula imperdiet posuere<br>
+                            vitae felis proin sagittis leo ac tellus blandit sollicitudin <em>quisque</em> vitae placerat.</p>
+                        <a class="slide-button button" href="#">
+                            Download now </a>
+                        <a class="slide-button slide-button--second button" href="#">
+                            See More </a>
+                    </div>
+                </div>
+            </div>
+            <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="sr-only">Previous</span>
+            </a>
+            <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="sr-only">Next</span>
+            </a>
+        </div>
+    </section>
+    <section id="features">
+        <div class="container">
+            <div class="row">
+                <div class="section-heading features-heading">
+                    <h6 class="title">show &amp; tell</h6>
+                    <h2 class="sub-heading">Why choose us</h2>
+                </div>
+            </div>
+            <div class="row">
+                <div class="column col-lg-3 col-md-6 col-sm-6">
+                    <div class="feature">
+                        <div class="feature-image primary-color">
+                            <div class="feature-icon"><i class="fas fa-tv"></i></div>
+                        </div>
+                        <h5 class="feature-title">
+                            Responsive Design </h5>
+                        <div class="feature-content">
+                            <p>Etiam nec odio vestibulum est mattis effic iturut magna. Pellentesque sit am.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="column col-lg-3 col-md-6 col-sm-6">
+                    <div class="feature">
+                        <div class="feature-image primary-color">
+                            <div class="feature-icon"><i class="fas fa-trophy"></i></div>
+                        </div>
+                        <h5 class="feature-title">
+                            Highly Versatile </h5>
+                        <div class="feature-content">
+                            <p>Antreas is a highly versatile and flexible WordPress theme</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="column col-lg-3 col-md-6 col-sm-6">
+                    <div class="feature">
+                        <div class="feature-image primary-color">
+                            <div class="feature-icon"><i class="far fa-building"></i></div>
+                        </div>
+                        <h5 class="feature-title">
+                            For Small Businesses </h5>
+                        <div class="feature-content">
+                            <p>Great for small business just starting out. Scales along with you.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="column col-lg-3 col-md-6 col-sm-6">
+                    <div class="feature">
+                        <div class="feature-image primary-color">
+                            <div class="feature-icon"><i class="fas fa-arrows-alt-h"></i></div>
+                        </div>
+                        <h5 class="feature-title">
+                            Featured Homepage </h5>
+                        <div class="feature-content">
+                            <p>Unlimited flexibility with our homepage design. Try the best.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="about">
+        <div class="container">
+            <div class="row">
+                <div class="section-heading features-heading">
+                    <h6 class="title">who we are</h6>
+                    <h2 class="sub-heading">About us</h2>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-4 col-md-6 col-sm-6">
+                    <div class="about__content">
+                        <a href="#" title="Our Story">
+                            <img src="images/about-1-768x512.jpg" class="img-fluid">
+                        </a>
+                        <h3 class="about__title">
+                            <a href="#" title="Our Story">Our Story </a>
+                        </h3>
+                        <p>Donec eget maximus erat. Fusce tempor condimentum mauris, in consectetur ante tincidunt quis.</p>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 col-sm-6">
+                    <div class="about__content">
+                        <a href="#" title="Our Story">
+                            <img src="images/about-2-768x512.jpg" class="img-fluid">
+                        </a>
+                        <h3 class="about__title">
+                            <a href="#" title="Our Story">Our Mission </a>
+                        </h3>
+                        <p>Donec eget maximus erat. Fusce tempor condimentum mauris, in consectetur ante tincidunt quis.</p>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 col-sm-6">
+                    <div class="about__content">
+                        <a href="#" title="Our Story">
+                            <img src="images/about-3-768x512.jpg" class="img-fluid">
+                        </a>
+                        <h3 class="about__title">
+                            <a href="#" title="Our Story">Our Beliefs</a>
+                        </h3>
+                        <p>Donec eget maximus erat. Fusce tempor condimentum mauris, in consectetur ante tincidunt quis.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="tagline">
+        <div class="container">
+            <div class="row">
+                <div class="clo-lg-8 m-auto">
+                    <div class="tagline-body">
+                        <h4 class="tagline-title">Antreas is a theme with great potential</h4>
+                        <p class="tagline-content">this tagline can be easily added anywhere on your site</p> <a
+                            class="tagline-link button" href="#">Learn More</a>
+                    </div>
+                </div>    
+            </div>
+        </div>
+    </section>
+    <section id="portfolio">
+        <div class="container">
+            <div class="row">
+                <div class="section-heading features-heading">
+                    <h6 class="title">our work</h6>
+                    <h2 class="sub-heading">See our Online Portfolio</h2>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="portfolio-item">
+                <a href="#"><img src="images/portfolio-1-150x150.jpg" class="img-fluid"></a>
+                <div class="portfolio-item-overlay primary-color-bg"></div>
+                <h5 class="portfolio-title">Manifesto</h5>
+            </div>
+            <div class="portfolio-item">
+                <a href="#"><img src="images/portfolio-9-600x600.jpg" class="img-fluid"></a>
+                <div class="portfolio-item-overlay primary-color-bg"></div>
+                <h5 class="portfolio-title">Gree Deer</h5>
+            </div>
+            <div class="portfolio-item portfolio-item-overlay">
+                <a href="#"><img src="images/portfolio-7-600x600.jpg" class="img-fluid"></a>
+                <div class="portfolio-item-overlay primary-color-bg"></div>
+                <h5 class="portfolio-title">Common Man Restaurant</h5>
+            </div>
+            <div class="portfolio-item">
+                <a href="#"><img src="images/portfolio-11-600x600.jpg" class="img-fluid"></a>
+                <div class="portfolio-item-overlay primary-color-bg"></div>
+                <h5 class="portfolio-title">White Pages</h5>
+            </div>
+            <div class="portfolio-item">
+                <a href="#"><img src="images/portfolio-6-600x600.jpg" class="img-fluid"></a>
+                <div class="portfolio-item-overlay primary-color-bg"></div>
+                <h5 class="portfolio-title">Duvenage</h5>
+            </div>
+        </div>
+        <div class="row">
+            <div class="portfolio-item">
+                <a href="#"><img src="images/portfolio-5-600x600.jpg" class="img-fluid"></a>
+                <div class="portfolio-item-overlay primary-color-bg"></div>
+                <h5 class="portfolio-title">Kinetic Osteo Health</h5>
+            </div>
+            <div class="portfolio-item">
+                <a href="#"><img src="images/portfolio-8-600x600.jpg" class="img-fluid"></a>
+                <div class="portfolio-item-overlay primary-color-bg"></div>
+                <h5 class="portfolio-title">The Descendants Beer</h5>
+            </div>
+            <div class="portfolio-item portfolio-item-overlay">
+                <a href="#"><img src="images/portfolio-4-600x600.jpg" class="img-fluid"></a>
+                <div class="portfolio-item-overlay primary-color-bg"></div>
+                <h5 class="portfolio-title">Seafood & Raw Bar</h5>
+            </div>
+            <div class="portfolio-item">
+                <a href="#"><img src="images/portfolio-2-600x600.jpg" class="img-fluid"></a>
+                <div class="portfolio-item-overlay primary-color-bg"></div>
+                <h5 class="portfolio-title">SH Jewellery</h5>
+            </div>
+            <div class="portfolio-item">
+                <a href="#"><img src="images/portfolio-10-600x600.jpg" class="img-fluid"></a>
+                <div class="portfolio-item-overlay primary-color-bg"></div>
+                <h5 class="portfolio-title">The Vault</h5>
+            </div>
+        </div>
+    </section>
+    <section id="services">
+        <div class="container">
+            <div class="row">
+                <div class="section-heading features-heading">
+                    <h6 class="title">our services</h6>
+                    <h2 class="sub-heading">What we can do for you</h2>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-6 col-md-6 col-sm-12 service right-space">
+                    <a href="#">
+                        <div class="primary-color service-icon">
+                            <i class="fas fa-i-cursor"></i>
+                        </div>
+                    </a>
+                    <div class="service-body">
+                        <h4 class="service-title">
+                            <a href="#">Performance Auditing</a>
+                        </h4>
+                        <div class="service-content">
+                            <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt
+                                ut labore et dolore magna aliquyam erat, sed diam voluptua.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-6 col-md-6 col-sm-12 service">
+                    <a href="#">
+                        <div class="primary-color service-icon">
+                            <i class="fab fa-accessible-icon"></i>
+                        </div>
+                    </a>
+                    <div class="service-body">
+                        <h4 class="service-title">
+                            <a href="#">WordPress Acceleration</a>
+                        </h4>
+                        <div class="service-content">
+                            <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore
+                            magna aliquyam erat, sed diam voluptua.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-6 col-md-6 col-sm-12 service right-space">
+                    <a href="#">
+                        <div class="primary-color service-icon">
+                            <i class="fas fa-thumbtack"></i>
+                        </div>
+                    </a>
+                    <div class="service-body">
+                        <h4 class="service-title">
+                            <a href="#">Web Development</a>
+                        </h4>
+                        <div class="service-content">
+                            <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore
+                            magna aliquyam erat, sed diam voluptua.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-6 col-md-6 col-sm-12 service">
+                    <a href="#">
+                        <div class="primary-color service-icon">
+                            <i class="far fa-check-circle"></i>
+                        </div>
+                    </a>
+                    <div class="service-body">
+                        <h4 class="service-title">
+                            <a href="#">Premium Consulting</a>
+                        </h4>
+                        <div class="service-content">
+                            <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore
+                            magna aliquyam erat, sed diam voluptua.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="products">
+        <div class="products__overlay primary-color-bg"></div>
+        <div class="container">
+            <div class="row">
+                <div class="section-heading features-heading">
+                    <h6 class="title">our shop</h6>
+                    <h2 class="sub-heading">Our Featured Products</h2>
+                </div>
+            </div>
+            <div class="row text-center">
+                <div class="col-lg-3 col-md-6 col-sm-6 space">
+                    <div class="product-details">
+                        <img src="images/products-6-300x300.jpg" class="img-fluid">
+                        <div class="product-title">
+                            <h2>Branding Mockup #1</h2>
+                            <p>$20.00</p>
+                            <a href="#">Add to cart</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 col-sm-6 space">
+                    <div class="product-details">
+                        <img src="images/products-5-300x300.jpg" class="img-fluid">
+                        <div class="product-title">
+                            <h2>Branding Mockup #2</h2>
+                            <p>$20.00</p>
+                            <a href="#">Add to cart</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 col-sm-6 space">
+                    <div class="product-details">
+                        <img src="images/products-3-300x300.jpg" class="img-fluid">
+                        <div class="product-title">
+                            <h2>Branding Mockup #3</h2>
+                            <p>$20.00</p>
+                            <a href="#">Add to cart</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 col-sm-6 space">
+                    <div class="product-details">
+                        <img src="images/products-4-300x300.jpg" class="img-fluid">
+                        <div class="product-title">
+                            <h2>Branding Mockup #4</h2>
+                            <p>$20.00</p>
+                            <a href="#">Add to cart</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="testimonials">
+        <div class="container">
+            <div class="row">
+                <div class="section-heading features-heading">
+                    <h6 class="title">our testimonials</h6>
+                    <h2 class="sub-heading">What people say about us</h2>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-4 col-md-6 col-sm-6">
+                    <div class="testimonial">
+                        <div class="testimonial-content">
+                            <p>Antreas is a perfect match for us, as it is designed with no-frills mentality. Because of the clean
+                                layout, our content will get all the attention, and it will be readable on any device.</p>
+                        </div>
+                        <img src="images/testimonial-1-150x150.jpg" class="img-fluid testimonial-image">
+                        <h4 class="testimonial-name">Brian Dean</h4>
+                        <div class="testimonial-position">Bussiness owner</div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 col-sm-6">
+                    <div class="testimonial">
+                        <div class="testimonial-content">
+                            <p>The team was very helpful and friendly. Post purchase support is friendly and professional. We never had to wait for a
+                            reply to our emails or ask again. Every answer was precise and top class.</p>
+                        </div>
+                        <img src="images/testimonial-2-150x150.jpg" class="img-fluid testimonial-image">
+                        <h4 class="testimonial-name">Ian Lewis</h4>
+                        <div class="testimonial-position">WEB CONSULTANT</div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 col-sm-6">
+                    <div class="testimonial">
+                        <div class="testimonial-content">
+                            <p>Fantastic product. Such an efficient streamlined way to obtain a design. Great bunch of designers and coders. Super
+                            happy about every aspect of the theme.</p>
+                        </div>
+                        <img src="images/testimonial-3-150x150.jpg" class="img-fluid testimonial-image">
+                        <h4 class="testimonial-name">Jessica White</h4>
+                        <div class="testimonial-position">WEB DESIGNER</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="team">
+        <div class="container">
+            <div class="row">
+                <div class="section-heading features-heading">
+                    <h6 class="title">we are dedicated</h6>
+                    <h2 class="sub-heading">Meet our team</h2>
+                </div>
+            </div>
+            <div class="row mt-4">
+                <div class="col-lg-3 col-md-6 col-sm-6">
+                    <div class="team-member">
+                        <img src="images/team-member-1-300x300.jpg" class="img-fluid team-member-image">
+                        <div class="team-member-body">
+                            <h3 class="team-member-title">David Smith</h3>
+                            <p class="team-member-description"> CEO </p>
+                            <div class="team-member-content">
+                                <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 col-sm-6">
+                    <div class="team-member">
+                        <img src="images/team-member-2-300x300.jpg" class="img-fluid team-member-image">
+                        <div class="team-member-body">
+                            <h3 class="team-member-title">Maria Rodriguez</h3>
+                            <p class="team-member-description">CHIEF OFFICER </p>
+                            <div class="team-member-content">
+                                <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 col-sm-6">
+                    <div class="team-member">
+                        <img src="images/team-member-3-300x300.jpg" class="img-fluid team-member-image">
+                        <div class="team-member-body">
+                            <h3 class="team-member-title">Mark Atkinson</h3>
+                            <p class="team-member-description">CREATIVE DIRECTOR</p>
+                            <div class="team-member-content">
+                                <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 col-sm-6">
+                    <div class="team-member">
+                        <img src="images/team-member-4-300x300.jpg" class="img-fluid team-member-image">
+                        <div class="team-member-body">
+                            <h3 class="team-member-title">Patricia Wright</h3>
+                            <p class="team-member-description">LEAD DESIGNER</p>
+                            <div class="team-member-content">
+                                <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="clients">
+        <div class="container">
+            <div class="row">
+                <div class="section-heading features-heading">
+                    <h6 class="title">our testimonials</h6>
+                    <h2 class="sub-heading">What people say about us</h2>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="client">
+                <img src="images/clients-2.jpg">
+            </div>
+            <div class="client">
+                <img src="images/clients-4-600x600.jpg">
+            </div>
+            <div class="client">
+                <img src="images/clients-5-600x600.jpg">
+            </div>
+            <div class="client">
+                <img src="images/clients-1-600x600.jpg">
+            </div>
+            <div class="client">
+                <img src="images/clients-3-600x600.jpg">
+            </div>
+        </div>
+    </section>
+    <section id="blog">
+        <div class="container">
+            <div class="row">
+                <div class="section-heading features-heading">
+                    <h6 class="title">our blog</h6>
+                    <h2 class="sub-heading">Recent blog posts</h2>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-4 col-md-6 col-sm-6 blog space">
+                    <img src="images/blog-post-3-1-600x600.jpg" class="img-fluid">
+                    <div class="blog-details">
+                        <h2 class="post-title">
+                            <a href="#">Travel Tips for South Africa</a>
+                        </h2>
+                        <div class="post-content">
+                            <p>Sed nec facilisis lacus. Aenean ullamcorper, ex sit amet consectetur imperdiet, dui lorem eleifend dolor, non
+                                commodo ipsum purus sed quam. Nullam eget maximus leo. Pellentesque ac tempor risus. In vestibulum orci arcu.
+                                Morbi in vehicula libero, sollicitudin ornare felis. Aliquam vestibulum pulvinar dui.</p>
+                        </div>
+                        <a class="post-readmore button" href="#">Read More</a>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 col-sm-6 blog space">
+                    <img src="images/blog-post-6-1-600x600.jpg" class="img-fluid">
+                    <div class="blog-details">
+                        <h2 class="post-title">
+                            <a href="#">Travel Tips for South Africa</a>
+                        </h2>
+                        <div class="post-content">
+                            <p>Sed nec facilisis lacus. Aenean ullamcorper, ex sit amet consectetur imperdiet, dui lorem eleifend dolor,
+                                non
+                                commodo ipsum purus sed quam. Nullam eget maximus leo. Pellentesque ac tempor risus. In vestibulum orci
+                                arcu.
+                                Morbi in vehicula libero, sollicitudin ornare felis. Aliquam vestibulum pulvinar dui.</p>
+                        </div>
+                        <a class="post-readmore button" href="#">Read More</a>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 col-sm-6 blog space">
+                    <img src="images/blog-post-5-600x600.jpg" class="img-fluid">
+                    <div class="blog-details">
+                        <h2 class="post-title">
+                            <a href="#">Travel Tips for South Africa</a>
+                        </h2>
+                        <div class="post-content">
+                            <p>Sed nec facilisis lacus. Aenean ullamcorper, ex sit amet consectetur imperdiet, dui lorem eleifend dolor,
+                                non
+                                commodo ipsum purus sed quam. Nullam eget maximus leo. Pellentesque ac tempor risus. In vestibulum orci
+                                arcu.
+                                Morbi in vehicula libero, sollicitudin ornare felis. Aliquam vestibulum pulvinar dui.</p>
+                        </div>
+                        <a class="post-readmore button" href="#">Read More</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="contact">
+        <div class="container">
+            <div class="row mt-4">
+                <div class="section-heading features-heading">
+                    <h6 class="title">get in touch</h6>
+                    <h2 class="sub-heading">Contact us</h2>
+                </div>
+            </div>
+            <div class="row mt-4">
+                <div class="col-lg-6 col-md-12 contact-details space">
+                    <h5>We don't byte</h5>
+                    <p>Proin quis nisl et mauris dictum fringilla. Aliquam erat volutpat. Integer consequat sagittis tellus a dapibus.
+                        Donec porta libero vel sapien rutrum, vitae efficitur risus vestibulum. Maecenas arcu ante, suscipit in
+                        fermentum sit amet, pretium eu turpis. Pellentesque iaculis cursus ipsum eget rutrum. Nullam blandit laoreet
+                        dui, sed dictum nisl consequat a. Quisque sagittis libero lorem, posuere commodo sem molestie sed. Donec
+                        ullamcorper feugiat finibus.</p>
+                    <h5>Contact Info</h5>
+                    <p><i class="fas fa-map-marker-alt"></i> <strong>Adress:</strong> 75 Ninth Avenue New York, NY 10011</p>
+                    <p><i class="fas fa-phone"></i> <strong>Telephone:</strong> +0 000-000-0000</p>
+                    <p class="email"><i class="fas fa-envelope"></i> <strong>Email:</strong> <a
+                            href="mailto:contact@gmail.com">contact@gmail.com</a></p>
+                </div>
+                <div class="col-lg-6 col-md-12 contact-form space">
+                    <form method="post" novalidate="novalidate">
+                        <div>
+                            <label> Your Name (required)<br>
+                                <input type="text" name="your-name"> 
+                            </label>
+                        </div>
+                        <div>
+                            <label> Your Email (required)<br>
+                                <input type="email" name="your-email"> 
+                            </label>
+                        </div>
+                        <div>
+                            <label> Your Message<br>
+                                <textarea name="your-message"></textarea>
+                            </label>
+                        </div>
+                        <div>
+                            <input class="submit" type="submit" value="Send message">
+                        </div>
+                        <div class="contact-btn"></div>
+                    </form>
+                </div> 
+            </div>
+        </div>
+    </section>
+    <% include /src/include/footer.ejs %>
+    <% include /src/include/scripts.ejs %>
+    <script>
+        $(window).scroll(function () {
+            if ($(window).scrollTop() >= 200) {
+                $('nav').addClass('fixed-header');
+            }
+            else {
+                $('nav').removeClass('fixed-header');
+            }
+        });
+    </script>
+</body>
+
+</html>

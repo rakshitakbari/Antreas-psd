@@ -1,0 +1,69 @@
+#contact{
+    background-color: #fafafa;
+    padding: 60px 0;
+    .contact-details{
+        h5{
+            font-weight: 400;
+            color: $black;
+            line-height: 1.2;
+            margin: 0 0 20px;
+        }
+        p{
+            font-size: 0.875em;
+            font-weight: 400;
+            color: #919191;
+            line-height: 1.6;
+        }
+        i{
+            margin-right: 20px;
+        }
+        .email{
+            a{
+                color: #919191;
+            }
+        }
+    }
+    .contact-form{
+        label{
+            display: block;
+            font-size: 0.875em;
+            font-weight: 400;
+            color: #919191;
+            line-height: 1.6;
+            margin-bottom: 26px;
+        }
+        input, textarea{
+            font-family: inherit;
+            border: 1px solid transparent;
+            padding: 8px 6px;
+            margin: 0;
+            width: 100%;
+            background: #ececec;
+            box-sizing: border-box;
+            -webkit-appearance: none;
+            box-shadow: 0 1px 2px rgba(0, 0, 0, 0.08) inset;
+            -moz-box-shadow: 0 1px 2px rgba(0, 0, 0, 0.08) inset;
+            -webkit-box-shadow: 0 1px 2px rgba(0, 0, 0, 0.08) inset;
+            transition: 0.3s all;
+        }
+        .submit{
+            background-color: $theme-color;
+            position: relative;
+            display: inline-block;
+            width: auto;
+            border: 1px solid transparent;
+            /* margin: 5px 0; */
+            padding: 8px 18px;
+            color: $white;
+            text-align: center;
+            border-radius: 40px;
+            cursor: pointer;
+            transition: 0.4s all;
+            &:hover{
+                background-color: $black;
+                color: $white;
+                transition: 0.4s all;
+            }
+        }
+    }
+}   

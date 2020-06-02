@@ -1,0 +1,39 @@
+#blog{
+    padding: 60px 0;
+    .blog{
+        margin-top: 20px;
+        .blog-details{
+            .post-title {
+                font-size: 1.4em;
+                padding: 0;
+                margin: 26px 0 16px;
+                font-weight: 400;
+                color: $black;
+                line-height: 1.2;
+                a{
+                    color: $black;
+                }
+            }
+            .post-content {
+                padding: 0;
+                margin: 0 0 26px 0;
+                p{
+                    margin-bottom: 0;
+                    font-size: 0.875em;
+                    font-weight: 400;
+                    color: #919191;
+                }
+            }
+            .post-readmore{
+                background-color: $theme-color;
+                padding: 8px 18px;
+                color: $white;
+                text-align: center;
+                border-radius: 40px;
+                font-weight: 400;
+                cursor: pointer;
+                transition: 0.4s all;
+            }
+        }
+    }
+}

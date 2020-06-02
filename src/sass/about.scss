@@ -1,0 +1,25 @@
+#about{
+    padding: 60px 0;
+    .about__content{
+        margin-top: 20px;
+        .about__image {
+            margin-bottom: 20px;
+        }
+        h3{
+            font-weight: 400;
+            font-size: 1.5em;
+            line-height: 1.2;
+            margin: 20px 0 20px;
+            a{
+                color: $black;
+            }
+        }
+        p{
+            margin-bottom: 1.6em;
+            line-height: 1.6;
+            font-weight: 400;
+            color: #919191;
+            font-size: 0.875em;
+        }
+    }
+}
